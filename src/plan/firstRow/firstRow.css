@@ -1,0 +1,24 @@
+.rowFirst{
+    height:8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+}
+.divSingle{
+
+    width:8%;
+}
+.days{
+    width: calc(84%/5);
+    /*todo odejmij tutaj grubosc bordera*/
+    /*border:1px solid black;*/
+}
+.days,.divSingle{
+    height:100%;
+    border:1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}

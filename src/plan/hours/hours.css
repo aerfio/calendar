@@ -1,0 +1,23 @@
+
+.right,.left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    height:100%;
+    width:8%;
+    box-sizing: border-box;
+}
+.blank{
+    box-sizing: border-box;
+    border: 1px solid black;
+    height:100%;
+    width: calc(84%/10);/*todo odejmij tutaj grubosc bordera*/
+}
+.hoursRow{
+/*border:1px solid pink;*/
+    height:calc(7vh*0.85);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

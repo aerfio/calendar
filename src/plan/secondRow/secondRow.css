@@ -1,0 +1,26 @@
+
+.rowSecond{
+    height:8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.weekSingle{
+    height:100%;
+    width:8%;
+}
+.PN{
+    height:100%;
+    /*border:1px solid red;*/
+
+    width: calc(84%/10);/*todo odejmij tutaj grubosc bordera*/
+}
+.weekSingle,.PN{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:1px solid black;
+    box-sizing: border-box;
+}
